@@ -1,0 +1,216 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>734</x><y>30</y><w>110</w><h>50</h></coordinates><panel_attributes>Sistema
+fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>314</x><y>0</y><w>100</w><h>110</h></coordinates><panel_attributes>Organizzatore
+fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>774</x><y>70</y><w>30</w><h>1600</h></coordinates><panel_attributes>lt=.
+fg=black</panel_attributes><additional_attributes>10;10;10;1580</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>100</y><w>30</w><h>1570</h></coordinates><panel_attributes>lt=.
+fg=black</panel_attributes><additional_attributes>10;10;10;1550</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>130</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+1. CreaEvento(datainizio,cliente,NumeroInvitati)</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>180</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1230</y><w>490</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+2. modifica dettagli evento(Data, Luogo, Nome,NumeroPartecipanti, TipoServizio,Note)
+fg=gray
+bg=none</panel_attributes><additional_attributes>30;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1250</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>314</x><y>1330</y><w>510</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+3.aggiungiServizio(offsetInizio, rangeOrario, luogo, dettagli,NumeroPartecipanti, strategia)
+fg=gray
+bg=none</panel_attributes><additional_attributes>40;20;460;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>304</x><y>1300</y><w>510</w><h>100</h></coordinates><panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1360</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ricette ordinate
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1410</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+4. aggiunge chef(chef)
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>304</x><y>1410</y><w>510</w><h>70</h></coordinates><panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1490</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+5. confermaMenuServizio(servizio)
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1520</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>304</x><y>1490</y><w>510</w><h>70</h></coordinates><panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1570</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+6. ScegliPersonale(dipendente, turnoServizio, ruolo)
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1600</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>304</x><y>1570</y><w>510</w><h>70</h></coordinates><panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>310</y><w>450</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1a Apre un evento esistente in corso(evento)
+</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>314</x><y>170</y><w>510</w><h>120</h></coordinates><panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>294</x><y>1200</y><w>540</w><h>450</h></coordinates><panel_attributes>LOOP
+layer=-1
+fg=gray
+bg=none</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>220</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1a.1 La data di inizio specificata è già passata
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>260</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1b.1 Il nome, la data e/o il numero di invitati non sono stati inseriti
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>314</x><y>340</y><w>510</w><h>150</h></coordinates><panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>340</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>400</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1a.1a.1 evento terminato o annullato
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>440</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1a.1b.1 L’organizzatore non gestisce l’evento
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>990</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=black
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>450</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>344</x><y>1440</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>314</x><y>540</y><w>510</w><h>110</h></coordinates><panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>294</x><y>120</y><w>540</w><h>1080</h></coordinates><panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+--
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>510</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1b Apre Evento annullato oppure terminato(evento)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>610</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1b.1a.1 L’evento è ancora in corso
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>550</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>314</x><y>700</y><w>510</w><h>100</h></coordinates><panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>660</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1c ElminaEvento(Evento)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>710</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>760</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1c.1a.1L’evento è ancora in corso
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>820</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1d AnnullaEvento(Evento)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>980</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>890</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1e.1 TerminaEvento</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>850</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+WarningPenale
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>320</x><y>950</y><w>500</w><h>70</h></coordinates><panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>950</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1e.2 AggiungiNote(Note)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>910</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>1050</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1f ConfermaEvento(Evento)</panel_attributes><additional_attributes>430;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>314</x><y>1090</y><w>510</w><h>100</h></coordinates><panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>1090</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>1150</y><w>450</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+1f.1a Chef non ancora assegnato
+fg=red
+layer=2</panel_attributes><additional_attributes>10;20;430;20</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>230</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>350</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=black
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>270</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>770</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>410</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>774</x><y>620</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes><additional_attributes></additional_attributes></element></diagram>
