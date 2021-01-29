@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>726</x>
+      <y>33</y>
+      <w>121</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Sistema
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>264</x>
+      <y>0</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Organizzatore
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>77</y>
+      <w>33</w>
+      <h>1760</h>
+    </coordinates>
+    <panel_attributes>lt=.
+fg=black</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1580.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>110</y>
+      <w>33</w>
+      <h>1727</h>
+    </coordinates>
+    <panel_attributes>lt=.
+fg=black</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1550.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>143</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1. Crea un evento(Nome,DataInizio,cliente)</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>198</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1265</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+2. modifica dettagli evento(data inizio?,note?)
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1287</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>253</x>
+      <y>1375</y>
+      <w>605</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+3.aggiungiServizio(data ,durataEvento,numeroInvitati,luogo,dataOra,programmazione)
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>60.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>253</x>
+      <y>1342</y>
+      <w>594</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1408</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ricette ordinate
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1463</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4. aggiunge chef(chef)
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>253</x>
+      <y>1463</y>
+      <w>594</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1551</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+5. confermaMenuServizio(servizio)
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1584</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>253</x>
+      <y>1551</y>
+      <w>594</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1639</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+6. ScegliPersonale(dipendente, turnoServizio, ruolo?)
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1672</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>253</x>
+      <y>1639</y>
+      <w>594</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>341</y>
+      <w>495</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1a Apre un evento esistente in corso(evento)
+</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>187</y>
+      <w>561</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>220</x>
+      <y>1232</y>
+      <w>638</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>LOOP
+layer=-1
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>242</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1a.1 La data di inizio specificata è già passata
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>286</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1b.1 Il nome, la data e/o il numero di invitati non sono stati inseriti
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>374</y>
+      <w>561</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>374</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>440</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1a.1a.1 evento terminato o annullato
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>484</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1a.1b.1 L’organizzatore non gestisce l’evento
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>759</x>
+      <y>1177</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=black
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>495</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1496</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=gray
+bg=none</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>605</y>
+      <w>561</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>220</x>
+      <y>132</y>
+      <w>638</w>
+      <h>1100</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+--
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>572</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1b Apre Evento annullato oppure terminato(evento)</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>671</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1b.1a.1 L’evento è ancora in corso
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>605</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Visualizza la scheda dell’evento
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>781</y>
+      <w>561</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>737</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1c ElminaEvento(Evento)</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>781</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>836</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1c.1a.1L’evento è ancora in corso
+fg=red
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>902</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1d AnnullaEvento(programmazione)</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1166</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>1067</y>
+      <w>506</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1e.1 TerminaEvento()</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>935</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+WarningPenale
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>1144</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1e.2 AggiungiNote(Note)</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>1089</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>253</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>385</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=black
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>297</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>847</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>451</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>770</x>
+      <y>682</y>
+      <w>22</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+lw=2
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>957</y>
+      <w>561</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>264</x>
+      <y>1133</y>
+      <w>550</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>990</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=black</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>968</y>
+      <w>495</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+1e.2 AggiungiNote(Note)</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
