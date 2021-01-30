@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>8</x>
+      <y>128</y>
+      <w>608</w>
+      <h>576</h>
+    </coordinates>
+    <panel_attributes>Event Management
+--
+bg=none</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>160</y>
+      <w>168</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Event Instance
+--
+-state:String
+-startDate:LocalDate
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>160</y>
+      <w>280</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Event Manager
+--
+
+-
++createEvent(name:String,date:LocalDate,client:String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
